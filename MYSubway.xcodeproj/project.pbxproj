@@ -3,35 +3,126 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 56;
+	objectVersion = 70;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3A408C2B2D0757260052DA3F /* StationTrainTimesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A408C2A2D07571D0052DA3F /* StationTrainTimesViewModel.swift */; };
+		3A724D162CE8091000DCA9B0 /* StationDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A724D152CE808F900DCA9B0 /* StationDetailView.swift */; };
+		3A724D182CE837D400DCA9B0 /* Station.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A724D172CE837CD00DCA9B0 /* Station.swift */; };
+		3A724D222CE838A100DCA9B0 /* shapes.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3A724D1D2CE838A100DCA9B0 /* shapes.txt */; };
+		3A724D232CE838A100DCA9B0 /* calendar_dates.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3A724D1B2CE838A100DCA9B0 /* calendar_dates.txt */; };
+		3A724D242CE838A100DCA9B0 /* stop_times.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3A724D1E2CE838A100DCA9B0 /* stop_times.txt */; };
+		3A724D252CE838A100DCA9B0 /* trips.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3A724D212CE838A100DCA9B0 /* trips.txt */; };
+		3A724D272CE838A100DCA9B0 /* calendar.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3A724D1A2CE838A100DCA9B0 /* calendar.txt */; };
+		3A724D292CE838A100DCA9B0 /* agency.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3A724D192CE838A100DCA9B0 /* agency.txt */; };
+		3A724D2C2CE8451500DCA9B0 /* TrainRoutes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A724D2B2CE8451300DCA9B0 /* TrainRoutes.swift */; };
+		3A724D2F2CEB23F500DCA9B0 /* GeminiChatbotView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A724D2E2CEB23E400DCA9B0 /* GeminiChatbotView.swift */; };
+		3A724D342CEB2DDA00DCA9B0 /* GoogleGenerativeAI in Frameworks */ = {isa = PBXBuildFile; productRef = 3A724D332CEB2DDA00DCA9B0 /* GoogleGenerativeAI */; };
+		3A724D362CEBA6F700DCA9B0 /* OpenAIServiceAlertsAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A724D352CEBA6F700DCA9B0 /* OpenAIServiceAlertsAPI.swift */; };
+		3A8561B22D126CCB00DEFAE8 /* Secrets.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3A8561B12D126CC300DEFAE8 /* Secrets.plist */; };
+		3A8561B42D126E2000DEFAE8 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 3A8561B32D126E1B00DEFAE8 /* .gitignore */; };
+		3AA57BD52CF3F5D3005646E1 /* FavoriteStationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AA57BD42CF3F5C8005646E1 /* FavoriteStationsView.swift */; };
+		3AA57BD72CF3F5F2005646E1 /* FavoriteStationsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AA57BD62CF3F5EB005646E1 /* FavoriteStationsViewModel.swift */; };
+		3AA57BD92CF3F614005646E1 /* AddFavoriteStationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AA57BD82CF3F60D005646E1 /* AddFavoriteStationsView.swift */; };
+		3ACC58852CF1708100EA1923 /* StationsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ACC58842CF1707E00EA1923 /* StationsViewModel.swift */; };
+		3ACC58872CF1BF5300EA1923 /* TrainLineViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ACC58862CF1BF4F00EA1923 /* TrainLineViewModel.swift */; };
+		3AD496882CE43E14004F491B /* TrainLineDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AD496872CE43E14004F491B /* TrainLineDetailView.swift */; };
+		3AEC590B2CE2942800535BAC /* SubwayAlertModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AEC590A2CE2942800535BAC /* SubwayAlertModels.swift */; };
+		3AEC590D2CE296F500535BAC /* SubwayDataFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AEC590C2CE296F500535BAC /* SubwayDataFetcher.swift */; };
+		3AEC590F2CE2972B00535BAC /* AlertsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AEC590E2CE2972B00535BAC /* AlertsViewModel.swift */; };
 		3AFBDBA02CE1BCEF00E4002B /* MYSubwayApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AFBDB9F2CE1BCEF00E4002B /* MYSubwayApp.swift */; };
 		3AFBDBA22CE1BCEF00E4002B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AFBDBA12CE1BCEF00E4002B /* ContentView.swift */; };
 		3AFBDBA42CE1BCF100E4002B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3AFBDBA32CE1BCF100E4002B /* Assets.xcassets */; };
 		3AFBDBA72CE1BCF100E4002B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3AFBDBA62CE1BCF100E4002B /* Preview Assets.xcassets */; };
+		3AFBDBAF2CE1BD3B00E4002B /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AFBDBAE2CE1BD3B00E4002B /* HomeView.swift */; };
+		3AFBDBB12CE1BE6E00E4002B /* StationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AFBDBB02CE1BE6E00E4002B /* StationsView.swift */; };
+		3AFBDBB32CE1BE8000E4002B /* TrainLinesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AFBDBB22CE1BE8000E4002B /* TrainLinesView.swift */; };
+		3AFBDBB52CE1BE8D00E4002B /* SubwayAlertsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AFBDBB42CE1BE8D00E4002B /* SubwayAlertsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3A408C2A2D07571D0052DA3F /* StationTrainTimesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StationTrainTimesViewModel.swift; sourceTree = "<group>"; };
+		3A724D152CE808F900DCA9B0 /* StationDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StationDetailView.swift; sourceTree = "<group>"; };
+		3A724D172CE837CD00DCA9B0 /* Station.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Station.swift; sourceTree = "<group>"; };
+		3A724D192CE838A100DCA9B0 /* agency.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = agency.txt; sourceTree = "<group>"; };
+		3A724D1A2CE838A100DCA9B0 /* calendar.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = calendar.txt; sourceTree = "<group>"; };
+		3A724D1B2CE838A100DCA9B0 /* calendar_dates.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = calendar_dates.txt; sourceTree = "<group>"; };
+		3A724D1D2CE838A100DCA9B0 /* shapes.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = shapes.txt; sourceTree = "<group>"; };
+		3A724D1E2CE838A100DCA9B0 /* stop_times.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = stop_times.txt; sourceTree = "<group>"; };
+		3A724D212CE838A100DCA9B0 /* trips.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = trips.txt; sourceTree = "<group>"; };
+		3A724D2B2CE8451300DCA9B0 /* TrainRoutes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainRoutes.swift; sourceTree = "<group>"; };
+		3A724D2E2CEB23E400DCA9B0 /* GeminiChatbotView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeminiChatbotView.swift; sourceTree = "<group>"; };
+		3A724D352CEBA6F700DCA9B0 /* OpenAIServiceAlertsAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenAIServiceAlertsAPI.swift; sourceTree = "<group>"; };
+		3A8561B12D126CC300DEFAE8 /* Secrets.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Secrets.plist; sourceTree = "<group>"; };
+		3A8561B32D126E1B00DEFAE8 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		3AA57BD42CF3F5C8005646E1 /* FavoriteStationsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteStationsView.swift; sourceTree = "<group>"; };
+		3AA57BD62CF3F5EB005646E1 /* FavoriteStationsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteStationsViewModel.swift; sourceTree = "<group>"; };
+		3AA57BD82CF3F60D005646E1 /* AddFavoriteStationsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddFavoriteStationsView.swift; sourceTree = "<group>"; };
+		3ACC58842CF1707E00EA1923 /* StationsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StationsViewModel.swift; sourceTree = "<group>"; };
+		3ACC58862CF1BF4F00EA1923 /* TrainLineViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainLineViewModel.swift; sourceTree = "<group>"; };
+		3AD496872CE43E14004F491B /* TrainLineDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainLineDetailView.swift; sourceTree = "<group>"; };
+		3AEC590A2CE2942800535BAC /* SubwayAlertModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubwayAlertModels.swift; sourceTree = "<group>"; };
+		3AEC590C2CE296F500535BAC /* SubwayDataFetcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubwayDataFetcher.swift; sourceTree = "<group>"; };
+		3AEC590E2CE2972B00535BAC /* AlertsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertsViewModel.swift; sourceTree = "<group>"; };
 		3AFBDB9C2CE1BCEF00E4002B /* MYSubway.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MYSubway.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3AFBDB9F2CE1BCEF00E4002B /* MYSubwayApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MYSubwayApp.swift; sourceTree = "<group>"; };
 		3AFBDBA12CE1BCEF00E4002B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		3AFBDBA32CE1BCF100E4002B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3AFBDBA62CE1BCF100E4002B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3AFBDBAE2CE1BD3B00E4002B /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		3AFBDBB02CE1BE6E00E4002B /* StationsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StationsView.swift; sourceTree = "<group>"; };
+		3AFBDBB22CE1BE8000E4002B /* TrainLinesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainLinesView.swift; sourceTree = "<group>"; };
+		3AFBDBB42CE1BE8D00E4002B /* SubwayAlertsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubwayAlertsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		3A724D2D2CEA815600DCA9B0 /* Resources */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = Resources; sourceTree = "<group>"; };
+/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		3AFBDB992CE1BCEF00E4002B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3A724D342CEB2DDA00DCA9B0 /* GoogleGenerativeAI in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3AEC59072CE293CC00535BAC /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				3A724D2B2CE8451300DCA9B0 /* TrainRoutes.swift */,
+				3A724D172CE837CD00DCA9B0 /* Station.swift */,
+				3AEC590A2CE2942800535BAC /* SubwayAlertModels.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		3AEC59082CE293FA00535BAC /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				3A724D352CEBA6F700DCA9B0 /* OpenAIServiceAlertsAPI.swift */,
+				3AEC590C2CE296F500535BAC /* SubwayDataFetcher.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		3AEC59092CE2940800535BAC /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				3A408C2A2D07571D0052DA3F /* StationTrainTimesViewModel.swift */,
+				3AA57BD62CF3F5EB005646E1 /* FavoriteStationsViewModel.swift */,
+				3ACC58862CF1BF4F00EA1923 /* TrainLineViewModel.swift */,
+				3ACC58842CF1707E00EA1923 /* StationsViewModel.swift */,
+				3AEC590E2CE2972B00535BAC /* AlertsViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
 		3AFBDB932CE1BCEF00E4002B = {
 			isa = PBXGroup;
 			children = (
@@ -51,6 +142,13 @@
 		3AFBDB9E2CE1BCEF00E4002B /* MYSubway */ = {
 			isa = PBXGroup;
 			children = (
+				3A8561B32D126E1B00DEFAE8 /* .gitignore */,
+				3A8561B12D126CC300DEFAE8 /* Secrets.plist */,
+				3A724D2D2CEA815600DCA9B0 /* Resources */,
+				3AEC59092CE2940800535BAC /* ViewModels */,
+				3AEC59082CE293FA00535BAC /* Services */,
+				3AEC59072CE293CC00535BAC /* Models */,
+				3AFBDBAD2CE1BD1300E4002B /* Views */,
 				3AFBDB9F2CE1BCEF00E4002B /* MYSubwayApp.swift */,
 				3AFBDBA12CE1BCEF00E4002B /* ContentView.swift */,
 				3AFBDBA32CE1BCF100E4002B /* Assets.xcassets */,
@@ -62,9 +160,31 @@
 		3AFBDBA52CE1BCF100E4002B /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
+				3A724D192CE838A100DCA9B0 /* agency.txt */,
+				3A724D1A2CE838A100DCA9B0 /* calendar.txt */,
+				3A724D1B2CE838A100DCA9B0 /* calendar_dates.txt */,
+				3A724D1D2CE838A100DCA9B0 /* shapes.txt */,
+				3A724D1E2CE838A100DCA9B0 /* stop_times.txt */,
+				3A724D212CE838A100DCA9B0 /* trips.txt */,
 				3AFBDBA62CE1BCF100E4002B /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		3AFBDBAD2CE1BD1300E4002B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				3AA57BD82CF3F60D005646E1 /* AddFavoriteStationsView.swift */,
+				3AA57BD42CF3F5C8005646E1 /* FavoriteStationsView.swift */,
+				3A724D2E2CEB23E400DCA9B0 /* GeminiChatbotView.swift */,
+				3A724D152CE808F900DCA9B0 /* StationDetailView.swift */,
+				3AFBDBAE2CE1BD3B00E4002B /* HomeView.swift */,
+				3AFBDBB02CE1BE6E00E4002B /* StationsView.swift */,
+				3AFBDBB22CE1BE8000E4002B /* TrainLinesView.swift */,
+				3AFBDBB42CE1BE8D00E4002B /* SubwayAlertsView.swift */,
+				3AD496872CE43E14004F491B /* TrainLineDetailView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -81,6 +201,9 @@
 			buildRules = (
 			);
 			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				3A724D2D2CEA815600DCA9B0 /* Resources */,
 			);
 			name = MYSubway;
 			productName = MYSubway;
@@ -111,6 +234,9 @@
 				Base,
 			);
 			mainGroup = 3AFBDB932CE1BCEF00E4002B;
+			packageReferences = (
+				3A724D322CEB2DDA00DCA9B0 /* XCRemoteSwiftPackageReference "generative-ai-swift" */,
+			);
 			productRefGroup = 3AFBDB9D2CE1BCEF00E4002B /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -126,6 +252,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				3AFBDBA72CE1BCF100E4002B /* Preview Assets.xcassets in Resources */,
+				3A724D222CE838A100DCA9B0 /* shapes.txt in Resources */,
+				3A724D232CE838A100DCA9B0 /* calendar_dates.txt in Resources */,
+				3A724D242CE838A100DCA9B0 /* stop_times.txt in Resources */,
+				3A8561B22D126CCB00DEFAE8 /* Secrets.plist in Resources */,
+				3A724D252CE838A100DCA9B0 /* trips.txt in Resources */,
+				3A724D272CE838A100DCA9B0 /* calendar.txt in Resources */,
+				3A8561B42D126E2000DEFAE8 /* .gitignore in Resources */,
+				3A724D292CE838A100DCA9B0 /* agency.txt in Resources */,
 				3AFBDBA42CE1BCF100E4002B /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -137,7 +271,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3AEC590D2CE296F500535BAC /* SubwayDataFetcher.swift in Sources */,
+				3AFBDBB32CE1BE8000E4002B /* TrainLinesView.swift in Sources */,
+				3A724D2C2CE8451500DCA9B0 /* TrainRoutes.swift in Sources */,
+				3ACC58852CF1708100EA1923 /* StationsViewModel.swift in Sources */,
+				3AFBDBAF2CE1BD3B00E4002B /* HomeView.swift in Sources */,
+				3AEC590B2CE2942800535BAC /* SubwayAlertModels.swift in Sources */,
+				3A724D162CE8091000DCA9B0 /* StationDetailView.swift in Sources */,
+				3AFBDBB12CE1BE6E00E4002B /* StationsView.swift in Sources */,
+				3AEC590F2CE2972B00535BAC /* AlertsViewModel.swift in Sources */,
+				3A408C2B2D0757260052DA3F /* StationTrainTimesViewModel.swift in Sources */,
+				3ACC58872CF1BF5300EA1923 /* TrainLineViewModel.swift in Sources */,
+				3AA57BD52CF3F5D3005646E1 /* FavoriteStationsView.swift in Sources */,
+				3AA57BD72CF3F5F2005646E1 /* FavoriteStationsViewModel.swift in Sources */,
+				3AD496882CE43E14004F491B /* TrainLineDetailView.swift in Sources */,
+				3A724D362CEBA6F700DCA9B0 /* OpenAIServiceAlertsAPI.swift in Sources */,
+				3A724D2F2CEB23F500DCA9B0 /* GeminiChatbotView.swift in Sources */,
 				3AFBDBA22CE1BCEF00E4002B /* ContentView.swift in Sources */,
+				3AFBDBB52CE1BE8D00E4002B /* SubwayAlertsView.swift in Sources */,
+				3AA57BD92CF3F614005646E1 /* AddFavoriteStationsView.swift in Sources */,
+				3A724D182CE837D400DCA9B0 /* Station.swift in Sources */,
 				3AFBDBA02CE1BCEF00E4002B /* MYSubwayApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -272,6 +425,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"MYSubway/Preview Content\"";
+				DEVELOPMENT_TEAM = V4BVT33UW2;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -300,6 +454,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"MYSubway/Preview Content\"";
+				DEVELOPMENT_TEAM = V4BVT33UW2;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -342,6 +497,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		3A724D322CEB2DDA00DCA9B0 /* XCRemoteSwiftPackageReference "generative-ai-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/google/generative-ai-swift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.5.6;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		3A724D332CEB2DDA00DCA9B0 /* GoogleGenerativeAI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3A724D322CEB2DDA00DCA9B0 /* XCRemoteSwiftPackageReference "generative-ai-swift" */;
+			productName = GoogleGenerativeAI;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 3AFBDB942CE1BCEF00E4002B /* Project object */;
 }
