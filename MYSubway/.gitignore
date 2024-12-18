@@ -1,1 +1,22 @@
+# Xcode specific
+.DS_Store
+build/
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+*.mode2v3
+*.perspectivev3
+xcuserdata/
+DerivedData/
+.idea/
+
+# Swift Package Manager
+.swiftpm/
+Package.resolved
+
+# Secrets
 Secrets.plist
+
+# CocoaPods
+Pods/
+Podfile.lock
